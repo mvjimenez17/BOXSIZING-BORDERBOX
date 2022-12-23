@@ -12,6 +12,8 @@ div { */
 
    /* la propíedad box-sizing: es utilizada para calcular las medidas ancho y alto de un elemento  y el valor border-box incluye el padding y el border para calcular las dimensiones de los elementos */
 
+   /* Para simplificar el cálculo de la caja podemos usar el valor border-box que tiene un soporte total en los navegadores de hoy en día */
+
     box-sizing: border-box;
 
      /*  Ya aqui tendríamos una caja de 250px de ancho ya el padding y el border ya forman parte del cálculo del width del elemento:*/
