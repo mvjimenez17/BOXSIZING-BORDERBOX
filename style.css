@@ -1,0 +1,19 @@
+
+/* Aqui tendríamos una caja de 290px de ancho ya que: 250px de width + (10px * 2) de padding + (10px * 2) de border
+
+div { */
+.box{
+    width: 250px;
+    height: 250px;
+    background: hotpink;
+    border:  10px solid blue;
+    padding: 10px;
+
+
+   /* la propíedad box-sizing: es utilizada para calcular las medidas ancho y alto de un elemento  y el valor border-box incluye el padding y el border para calcular las dimensiones de los elementos */
+
+    box-sizing: border-box;
+
+     /*  Ya aqui tendríamos una caja de 250px de ancho ya el padding y el border ya forman parte del cálculo del width del elemento:*/
+}
+
